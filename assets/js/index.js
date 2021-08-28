@@ -150,7 +150,7 @@ divNumbers()
 let amount = +prompt('Введите число')
 
 function nearNumber() {
-  console.log(Math.round(amount / 11))
+  console.log(Math.round(amount / 11)*11)
 }
 
 nearNumber()
